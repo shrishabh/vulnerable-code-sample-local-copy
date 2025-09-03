@@ -161,21 +161,21 @@ jobs:
 
             1. **Correctness:** Identify logic errors, unhandled edge cases, race conditions, incorrect API usage, and data validation flaws.
 
-            2. **Security:** Pinpoint vulnerabilities such as injection attacks, insecure data storage, insufficient access controls, or secrets exposure.
+            2. **Efficiency:** Locate performance bottlenecks, unnecessary computations, memory leaks, and inefficient data structures.
 
-            3. **Efficiency:** Locate performance bottlenecks, unnecessary computations, memory leaks, and inefficient data structures.
+            3. **Maintainability:** Assess readability, modularity, and adherence to established language idioms and style guides (e.g., Python PEP 8, Google Java Style Guide). If no style guide is specified, default to the idiomatic standard for the language.
 
-            4. **Maintainability:** Assess readability, modularity, and adherence to established language idioms and style guides (e.g., Python PEP 8, Google Java Style Guide). If no style guide is specified, default to the idiomatic standard for the language.
+            4. **Testing:** Ensure adequate unit tests, integration tests, and end-to-end tests. Evaluate coverage, edge case handling, and overall test quality.
 
-            5. **Testing:** Ensure adequate unit tests, integration tests, and end-to-end tests. Evaluate coverage, edge case handling, and overall test quality.
+            5. **Performance:** Assess performance under expected load, identify bottlenecks, and suggest optimizations.
 
-            6. **Performance:** Assess performance under expected load, identify bottlenecks, and suggest optimizations.
+            6. **Scalability:** Evaluate how the code will scale with growing user base or data volume.
 
-            7. **Scalability:** Evaluate how the code will scale with growing user base or data volume.
+            7. **Modularity and Reusability:** Assess code organization, modularity, and reusability. Suggest refactoring or creating reusable components.
 
-            8. **Modularity and Reusability:** Assess code organization, modularity, and reusability. Suggest refactoring or creating reusable components.
+            8. **Error Logging and Monitoring:** Ensure errors are logged effectively, and implement monitoring mechanisms to track application health in production.
 
-            9. **Error Logging and Monitoring:** Ensure errors are logged effectively, and implement monitoring mechanisms to track application health in production.
+            **Note: ** DO NOT add security related reviews.
 
             #### Comment Formatting and Content
 
