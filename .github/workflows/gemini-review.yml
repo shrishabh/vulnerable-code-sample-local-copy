@@ -43,7 +43,7 @@ jobs:
 
       - name: 'Run Gemini security analysis'
         if: ${{ env.ENABLE_SECURITY_ANALYSIS == 'true' }}
-        uses: 'google-github-actions/run-gemini-cli@v0' # ratchet:exclude
+        uses: 'QuanZhang-William/run-gemini-cli@prototype-security-agent' # ratchet:exclude
         id: 'gemini_security_analysis'
         env:
           GITHUB_TOKEN: '${{ steps.mint_identity_token.outputs.token || secrets.GITHUB_TOKEN || github.token }}'
